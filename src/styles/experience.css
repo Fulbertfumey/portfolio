@@ -1,0 +1,55 @@
+.experience-section {
+  padding: 100px 20px;
+  background: #111827;
+  color: #ffffff;
+}
+
+.timeline {
+  position: relative;
+  margin-top: 60px;
+  padding-left: 30px;
+  border-left: 2px solid #38bdf8;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -11px;
+  top: 5px;
+  width: 18px;
+  height: 18px;
+  background: #38bdf8;
+  border-radius: 50%;
+}
+
+.timeline-content {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.timeline-period {
+  font-size: 0.85rem;
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+.timeline-content h3 {
+  margin: 8px 0;
+}
+
+.timeline-content h4 {
+  font-size: 0.95rem;
+  color: #cbd5e1;
+  margin-bottom: 10px;
+}
+
+.timeline-content p {
+  color: #94a3b8;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
