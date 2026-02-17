@@ -13,8 +13,8 @@ export default function Footer() {
         <div className="footer-links">
           <h4>Navigation</h4>
           <ul>
-            <li><a href="#about">À propos</a></li>
-            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#APropos">À propos</a></li>
+            <li><a href="#competences">Compétences</a></li>
             <li><a href="#projects">Projets</a></li>
             <li><a href="#experience">Expérience</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -33,6 +33,17 @@ export default function Footer() {
               <a href="https://linkedin.com/" target="_blank" rel="noreferrer">
                 LinkedIn
               </a>
+            </li>
+            <li>
+             <a
+              href="https://wa.me/22899333454?text=Bonjour%20Fulbert,%20je%20souhaite%20discuter%20d'un%20projet"
+              target="_blank"
+              rel="noopener noreferrer"
+             
+            >
+                 WhatsApp
+            </a>
+
             </li>
           </ul>
         </div>
