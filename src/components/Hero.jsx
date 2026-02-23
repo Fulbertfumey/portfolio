@@ -63,13 +63,18 @@ const Hero = () => {
 
       {/* 2. Nom (Typography Focus) */}
       <motion.h1
-        className="relative z-10 text-6xl md:text-8xl font-black text-white mb-4 tracking-tighter text-center"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.1, ease: easing }}
-      >
-        Fulbert <span className="bg-gradient-to-b from-white to-slate-500 bg-clip-text text-transparent">Fumey</span>
-      </motion.h1>
+  // CHANGEMENTS : text-4xl au lieu de 6xl sur mobile, leading plus serré
+  className="relative z-10 text-4xl sm:text-6xl md:text-8xl font-black text-white mb-4 tracking-tighter text-center leading-[1.1] md:leading-none"
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8, delay: 0.1, ease: easing }}
+>
+  {/* On peut forcer un retour à la ligne propre uniquement sur mobile très petit */}
+  <span className="block sm:inline">Fulbert</span>{" "}
+  <span className="bg-gradient-to-b from-white to-slate-400 bg-clip-text text-transparent block sm:inline">
+    Fumey
+  </span>
+</motion.h1>
 
       {/* 3. Role & Stack (Typewriter inclus) */}
       <div className="relative z-10">
@@ -108,7 +113,7 @@ const Hero = () => {
         transition={{ duration: 0.8, delay: 0.8, ease: easing }}
       >
         <a
-          href="/cvfumey.pdf"
+          href="/CVfumeyfulbert.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
   

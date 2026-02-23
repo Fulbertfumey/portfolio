@@ -15,17 +15,17 @@ export const projects = [
     technologies: ["Laravel", "MySQL", "Bootstrap"],
     image: image1,
     github: "https://github.com/Fulbertfumey/Gescadmec/settings/pages",
-    demo: "#",
+    // demo: "#",
   },
   {
     id: 2,
-    title: "Application React – Gestion de Tâches",
+    title: "Application– Gestion de Tâches",
     description:
       "Application monopage dynamique avec gestion des tâches et interface moderne.",
     technologies: ["HTML","CSS", "JavaScript" ],
     image: image2,
     github: "https://fulbertfumey.github.io/Gestion_tache/",
-    demo: "#",
+    // demo: "#",
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ export const projects = [
       "Création et personnalisation d’un site WordPress qui permet en confiance les diaporat pour tout leurs traveaux de construiction netoyages et service domestiques.",
     technologies: ["WordPress", "PHP", "MySQL"],
     image: btp,
-    github: "#",
+    // github: "#",
     demo: "https://mikimaison.free.nf/?i=1",
   },
   {
@@ -45,7 +45,7 @@ export const projects = [
     technologies: ["HTML", "CSS", ""],
     image: imageexpress,
     github: "https://fulbertfumey.github.io/miki/",
-    demo: "#",
+    // demo: "#",
   },
   {
     id: 5,
@@ -54,7 +54,7 @@ export const projects = [
       "Création et personnalisation d’un de boutique shopify.",
     technologies: ["WordPress", "PHP", "MySQL"],
     image: shopify,
-    github: "#",
+    // github: "#",
     demo: "https://5faqdi-14.myshopify.com/",
   },
   {
@@ -64,7 +64,7 @@ export const projects = [
       "Création et personnalisation d’un site WordPress optimisé SEO.",
     technologies: ["WordPress", "PHP", "MySQL"],
     image: open,
-    github: "#",
+    // github: "#",
     demo: "https://openmarkettogo1.free.nf/?i=1",
   },
 ];

@@ -1,7 +1,7 @@
 export const experiences = [
   {
     id: 1,
-    period: "2024 - Présent",
+    period: "2025 - Présent",
     role: "Développeur Web & Référent Digital",
     company: "Projets Freelance",
     description:
@@ -9,7 +9,7 @@ export const experiences = [
   },
   {
     id: 2,
-    period: "2023 - 2024",
+    period: "2024 - 2025",
     role: "Développeur Full Stack",
     company: "Projets Académiques & Professionnels",
     description:
@@ -17,7 +17,7 @@ export const experiences = [
   },
   {
     id: 3,
-    period: "2022 - 2023",
+    period: "2024 - 2025",
     role: "Intégrateur & Développeur Web",
     company: "Projets Personnels",
     description:
