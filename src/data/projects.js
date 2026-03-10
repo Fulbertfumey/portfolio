@@ -5,6 +5,8 @@ import imageexpress from "../assets/imageexpress.jpg";
 import shopify from "../assets/shopify.jpg";
 import open from "../assets/open.jpg";
 import btp from "../assets/btp.jpg";
+import javascript from "../assets/javascript.jpg";
+import raw from "../assets/raw.jpg";
 
 export const projects = [
   {
@@ -31,7 +33,7 @@ export const projects = [
     id: 3,
     title: "Site WordPress Professionnel",
     description:
-      "Création et personnalisation d’un site WordPress qui permet en confiance les diaporat pour tout leurs traveaux de construiction netoyages et service domestiques.",
+      "Création et personnalisation d’un site WordPress qui permet en confiance les diasporat pour tout leurs traveaux de construiction netoyages et service domestiques.",
     technologies: ["WordPress", "PHP", "MySQL"],
     image: btp,
     // github: "#",
@@ -52,7 +54,7 @@ export const projects = [
     title: "creation de Boutique Professionnel sur shopify",
     description:
       "Création et personnalisation d’un de boutique shopify.",
-    technologies: ["WordPress", "PHP", "MySQL"],
+    technologies: ["html", "css3", "javascript"],
     image: shopify,
     // github: "#",
     demo: "https://5faqdi-14.myshopify.com/",
@@ -61,10 +63,30 @@ export const projects = [
     id: 6,
     title: "Site WordPress Professionnel",
     description:
-      "Création et personnalisation d’un site WordPress optimisé SEO.",
+      "Création et personnalisation d’un site WordPress optimisé SEO, un site de marketplace developpé aucour d'un brief scolaire.",
     technologies: ["WordPress", "PHP", "MySQL"],
     image: open,
     // github: "#",
     demo: "https://openmarkettogo1.free.nf/?i=1",
+  },
+  {
+    id: 7,
+    title: "site statiques professionnel",
+    description:
+      "developpement d'un site statique pour la maitrise du javascript html et css",
+    technologies: ["html", "CSS", "JavaScript"],
+    image: javascript,
+    github: "https://fulbertfumey.github.io/brif2/",
+    // demo: "https://openmarkettogo1.free.nf/?i=1",
+  },
+  {
+    id: 8,
+    title: "site statiques professionnel2",
+    description:
+      "developpement d'un site statique pour la maitrise du  html et CSS3",
+    technologies: ["html", "CSS3", "JavaScript"],
+    image: raw,
+    github: "https://fulbertfumey.github.io/social_mediafulb/",
+    // demo: "https://openmarkettogo1.free.nf/?i=1",
   },
 ];

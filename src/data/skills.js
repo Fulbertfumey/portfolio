@@ -1,7 +1,7 @@
 export const technicalSkills = [
   {
     category: "Front-End",
-    skills: ["HTML", "CSS", "JavaScript", "Bootstrap", "React"]
+    skills: ["HTML", "CSS", "JavaScript", "Bootstrap","tailwindCSS", "React"]
   },
   {
     category: "Back-End",
@@ -9,7 +9,7 @@ export const technicalSkills = [
   },
   {
     category: "Outils & Méthodes",
-    skills: ["Git & GitHub", "Figma", "Gestion de projet", "Tests & Debugging"]
+    skills: ["Git & GitHub", "Figma","Canvas","Wordpress","Word-Powerpoint-Exel", "Gestion de projet", "Tests & Debugging"]
   }
 ];
 
